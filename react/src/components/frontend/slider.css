@@ -1,0 +1,140 @@
+/* .slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.slider{
+  filter: brightness(60%);
+  width:100%;
+  height:757px;
+  
+  object-fit: cover;
+  animation: changeImage 14s linear infinite;
+ 
+}
+
+@keyframes changeImage {
+  0%{
+      background: url('./images/poshaksewahome.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  width:100%;
+  display: block;
+  background-size: cover;
+
+
+
+  }
+
+  40%{
+      background: url('./images/rentslider.jpg');
+      background-repeat: no-repeat;
+      background-position:center;
+      width:100%;
+      display: block;
+      background-size: cover;
+
+  }
+
+  75%{
+      background: url('./images/rentslider1.jpeg');
+      background-repeat: no-repeat;
+      background-position:center;
+      width:100%;
+      display: block;
+      background-size: cover;
+
+  }
+
+  100%{
+      background: url('images/rentslider2.jpg');
+      background-repeat: no-repeat;
+      background-position:center;
+      width:100%;
+      display: block;
+      background-size: cover;
+
+  }
+
+
+}
+
+.image {
+  width: 100%;
+  height: 760px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+ .slider-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.slider-text h1 {
+  letter-spacing: 0.5px;
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 10px;
+}
+ 
+.slider-text h6{
+  color: white;
+  letter-spacing: 0.9px;
+  margin-bottom: 25px;
+}
+
+.get-started-button {
+  padding: 17px 20px;
+  background-color: #0a6bf3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.get-started-button:hover {
+  background-color: #0f4591;
+  color:white;
+}

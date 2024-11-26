@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Province 1",
+      "cities": ["Biratnagar", "Dharan", "Itahari", "Biratchowk"]
+    },
+    {
+      "name": "Province 2",
+      "cities": ["Janakpur", "Birgunj", "Bara", "Saptari"]
+    },
+    {
+      "name": "Bagmati Province",
+      "cities": ["Kathmandu", "Lalitpur", "Bhaktapur", "Hetauda","Bharatpur"]
+    },
+    {
+      "name": "Gandaki Province",
+      "cities": ["Pokhara", "Besisahar", "Baglung", "Gorkha","Damauli"]
+    },
+    {
+      "name": "Lumbini Province",
+      "cities": ["Butwal", "Nawalparasi", "Rupandehi", "Bhairahawa"]
+    },
+    {
+      "name": "Karnali Province",
+      "cities": ["Surkhet", "Jumla", "Dolpa", "Humla"]
+    },
+    {
+      "name": "Sudurpaschim Province",
+      "cities": ["Dhangadhi", "Kanchanpur", "Dadeldhura", "Baitadi"]
+    }
+  ]
+  
